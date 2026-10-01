@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Dancers</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="pagina3">
+
+        <div class="bloco3"></div>
+
+        <div class="conteudo3">
+
+            <div class="texto3">
+                <p class="pequeno3">BLACK DANCERS</p>
+
+                <h1>
+                    Dance<br>
+                    <span>with style.</span>
+                </h1>
+
+        
+
+                <p>
+                    A dança é liberdade, expressão e personalidade.
+                    Nossas roupas foram pensadas para acompanhar
+                    cada movimento com conforto e estilo.
+                </p>
+
+                 <a href="pg4.php">
+                <img src="img/right-arrow.png" alt="Próxima página" class="seta">
+            </a>
+            
+            </div>
+
+            <img src="img/dance9.jpg" alt="Dançarina" class="imagem3">
+
+        </div>
+
+    </div>
+
+</body>
+</html>

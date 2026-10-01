@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(175, 138, 138);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.geral {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    max-width: 1000px;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(70, 40, 40, 0.25);
+}
+
+.bloco1 {
+    background: #876060;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.bloco1 .pequeno {
+    color: #e8d2d2;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.bloco1 h1 {
+    font-size: 65px;
+    line-height: 0.9;
+    color: #3f2929;
+}
+
+.bloco1 h1 span {
+    color: #d9bebe;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.bloco1 .texto {
+    max-width: 330px;
+    margin-top: 30px;
+    color: #eadada;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0;
+}
+
+.bloco2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imagens-perfil {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.numero {
+    position: absolute;
+    color: white;
+}
+
+.seta {
+    width: 50px;
+    height: auto;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.seta:hover {
+    transform: translateX(8px);
+}
+
+.pagina2 {
+    width: 90%;
+    max-width: 1100px;
+    height: 550px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 25px;
+}
+
+/* BLOCO DO TEXTO */
+
+.texto-pagina2 {
+    background: #876060;
+    border-radius: 25px;
+
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.texto-pagina2 .pequeno {
+    color: #eadada;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.texto-pagina2 h1 {
+    color: #3f2929;
+    font-size: 38px;
+    line-height: 1;
+}
+
+.texto-pagina2 h1 span {
+    color: #e1caca;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.texto-pagina2 h2 {
+    color: #eadada;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.descricao2 {
+    color: #eadada;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+
+
+
+.galeria {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: 12px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    display: block;
+
+    border-radius: 12px;
+}
+.pagina3 {
+    width: 90%;
+    max-width: 1000px;
+    min-height: 600px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background: #f2e4e4;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.bloco3 {
+    background: #876060;
+}
+
+.conteudo3 {
+    padding: 60px;
+}
+
+.pequeno3 {
+    color: #876060;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.texto3 h1 {
+    font-size: 55px;
+    line-height: 0.95;
+    color: #3f2929;
+}
+
+.texto3 h1 span {
+    color: #876060;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.texto3 p:last-child {
+    color: #6f5555;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 400px;
+    margin-top: 25px;
+}
+
+.imagem3 {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 18px;
+    margin-top: 35px;
+}

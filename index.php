@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Dancers</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="geral">
+
+        <div class="bloco1">
+
+            <p class="pequeno">DANCE • STYLE • FREEDOM</p>
+
+            <h1>
+                black<br>
+                <span>Dancers</span>
+            </h1>
+
+            <p class="texto">
+                Roupas de dança que combinam estilo,
+                conforto e liberdade para você se
+                movimentar do seu jeito.
+            </p>
+
+            <a href="pg2.php">
+                <img src="img/right-arrow.png" alt="Próxima página" class="seta">
+            </a>
+
+        </div>
+
+        <div class="bloco2">
+
+            <img src="img/dance.jpg" alt="Dançarina" class="imagens-perfil">
+
+            <div class="numero">01</div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Dancers</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="pagina2">
+
+        <div class="texto-pagina2">
+
+            <p class="pequeno">BLACK DANCERS</p>
+
+            <h1>
+                MOVIMENTO<br>
+                <span>e estilo</span>
+            </h1>
+
+            <h2>ERAT ALIQUAM</h2>
+
+            <p class="descricao2">
+                Encontre peças que combinam com seu estilo,
+                conforto e liberdade para dançar.
+                Cada roupa ajuda a transformar movimento,
+                música e personalidade em uma experiência visual.
+            </p>
+
+             <a href="pg3.php">
+                <img src="img/right-arrow.png" alt="Próxima página" class="seta">
+            </a>
+
+        </div>
+        
+
+        <div class="galeria">
+
+            <img src="img/dance1.jpg" alt="Dança">
+            <img src="img/dance2.jpg" alt="Dança">
+            <img src="img/dance3.jpg" alt="Dança">
+            <img src="img/dance4.jpg" alt="Dança">
+
+            <img src="img/dance5.jpg" alt="Dança">
+            <img src="img/dance6.jpg" alt="Dança">
+            <img src="img/dance7.jpg" alt="Dança">
+            <img src="img/dance8.jpg" alt="Dança">
+
+        </div>
+
+    </div>
+
+</body>
+</html>
